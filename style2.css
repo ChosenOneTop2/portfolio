@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    header .logo{
+        font-size: 18px;
+    }
+    header .navbar{
+        display: none;
+    }
+    header .contact{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-box{
+        display: none;
+    }
+    .home{
+        width:100%;
+        padding: none;
+        min-height: 50vh;
+    }
+    .home-content h1{
+        font-size: 24px;
+    }
+    .home-content p{
+        font-size: 16px;
+    }
+    .btn-1{
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+        gap: 5em;
+    }
+    .about-img img{
+        width: 320px;
+    }
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content h2{
+        text-align: center;
+    }
+    .about-content h3{
+        font-size: 38px;
+        text-align: center;
+    }
+    .about-content p{
+        margin: 1em 0 1em;
+    }
+    .btn-2{
+        padding: 13px 20px;
+        width: 45%;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-form h2{
+        margin-top: 1.5em;
+        font-size: 38px;
+    }
+    .contact-form form .input-box input,
+    .contact-form form textarea{
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer ul{
+        font-size: 15px;
+    }
+    .footer ul li{
+        padding: 0 10px;
+    }
+}
