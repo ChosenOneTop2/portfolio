@@ -63,6 +63,12 @@
         text-align: center;
     }
 }
+@media (max-width: 767px) {
+    .project-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 767px) {
     .contact-form h2{
