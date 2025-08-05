@@ -63,6 +63,7 @@
         text-align: center;
     }
 }
+
 @media (max-width: 767px) {
     .project-content{
         display: flex;
