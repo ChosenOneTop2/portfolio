@@ -209,6 +209,7 @@ span{
   padding: 10px;
 }
 .furniro-button{
+  display: inline-block; 
   padding: 10px 20px;
   background-color:#F54927;
   color: white;
@@ -218,8 +219,11 @@ span{
   letter-spacing: 1px;
   font-weight: 600;
   margin-top: 1em;
+  text-decoration: none;
+  cursor: pointer;       
 }
 .Table-UI-button{
+  display: inline-block; 
   padding: 10px 20px;
   background-color:#F54927;
   color: white;
@@ -229,6 +233,8 @@ span{
   letter-spacing: 1px;
   font-weight: 600;
   margin-top: 1em;
+  text-decoration: none;
+  cursor: pointer;       
 }
 
 .contact-form h2{
